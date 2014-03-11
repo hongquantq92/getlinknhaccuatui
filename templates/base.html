@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Download</title>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="//cdn.sstatic.net/stackoverflow/img/favicon.ico?v=5bcec08ba0c5">
+
+<link rel="stylesheet" href="static/media/styles/main.css" type="text/css">
+<link rel="stylesheet" href="static/media/styles/nivo-slider.css" type="text/css">
+<!--[if lte IE 8]><link rel="stylesheet" href="media/styles/ie.css" type="text/css"><![endif]-->
+<script src="static/media/scripts/jquery-1.6.1.min.js"></script>
+<script src="static/media/scripts/jquery.nivo.slider.pack.js"></script>
+<script src="static/media/scripts/blanka.js"></script>
+</head>
+<body>
+<div id="header">
+  <div class="inner cf">
+    <form method="post" action="" class="search">
+      <fieldset>
+        <legend>Search</legend>
+        <input type="text" name="search" value="">
+        <input type="image" name="submit" src="static/media/images/search/button.png" alt="Search">
+      </fieldset>
+    </form>
+    <div id="navigation">
+      <ul>
+        <li class="current-menu-item"><a href="#">Home</a></li>
+        <li> <a href="#">Option Download</a>
+          <ul>
+            <li><a href="#">&raquo; Get all song in album</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Hepl</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<hr>
+<div id="content" class="home">
+  <div class="inner">
+    <div id="logo" class="section logo">
+      <h1> <a href="#"> <img src="static/media/images/logo.png" width="208" height="159" alt=""> </a> </h1>
+    </div>
+ 	<div class="section about" style=" padding-top: 0px; ">
+      {% block body %}{% endblock %}
+      {% block nav %}{% endblock %}
+    </div>
+    <hr>
+    <h2>Recent Works</h2>
+    <hr>
+    <h2>What We Do</h2>
+    <hr>
+    <h2>From Our Blog</h2>
+  </div>
+</div>
+<hr>
+<div id="footer">
+  <div class="inner">
+    <p> &copy; 2012 by <a href="#">Blanka</a> All rights reserved.Website Template By <a href="#">High on Pixels</a> </p>
+  </div>
+</div>
+</body>
+</html>

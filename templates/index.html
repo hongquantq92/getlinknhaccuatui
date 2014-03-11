@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block body %}
+<div>
+      <form action="{{url_for('index')}}" method="post">
+            <span>Enter your link mp3  :</span><br />
+           <div class="formgetlink">
+            <input type="text" placeholder="http://www.nhaccuatui.com/bai-hat/xa-mat-roi-thuy-tien.KW3Py2RbmYSv.html" name="username" class="inputf"/>
+    <input type="submit" value="Get link" class="submit"/></div>
+        </form>
+  </div>
+ {% endblock %}
+ {% block nav %}
+ {% if 'http' in link%}
+<div>
+<div class="informp3">
+        	<span class="linksong">Get mp3 from link : <a class="namesong" title="{{link}}"href="{{link}}" target="_blank">{{link[:50]}}...</a></span>
+            <p></p>
+      </div>
+            
+            <div class="returnp">
+                           <div class="linksongdownload">Download Song </div></b>
+                           <div class="submitsong"><a href="{{value}}"/><input class="clickbutton" type="submit"  value=" Get the song " /></a></div>
+            </div>
+  </div>
+   {% endif %}
+ 
+{% endblock %}

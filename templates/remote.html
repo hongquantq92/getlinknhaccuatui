@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block body %}
+    <h1>Welcome! get data mp3</h1>
+        <form action="{{url_for('index')}}" method="post">
+            <b>Get mp3 from link :<br />
+            <b><a title="{{link}}"href="{{link}}" target="_blank">{{link[:40]}}...</a></b>
+            <p>Return: {{title}}<br />
+            <b>Download in :</b><a href="{{value}}"/>{{title}}</a>
+          
+        </form>
+    
+{% endblock %}
