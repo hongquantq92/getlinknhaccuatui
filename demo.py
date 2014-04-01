@@ -35,7 +35,7 @@ def add(url):
 t=1
 while t<100000:
     processes = []
-    for i in range(1,10):
+    for i in range(1,15):
         if t<10000:
             processes.append(ThreadWithReturnValue(target=add, args=(url,), name='addstring'))
             t+=1
