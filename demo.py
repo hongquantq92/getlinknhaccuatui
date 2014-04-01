@@ -9,6 +9,7 @@ import math
 import random
 import requests
 import time
+url='https://mp3.zing.vn/'
 class ThreadWithReturnValue(Thread):
     def __init__(self, group=None, target=None, name=None,
                  args=(), kwargs={}, Verbose=None):
@@ -21,7 +22,7 @@ class ThreadWithReturnValue(Thread):
     def join(self):
         Thread.join(self)
         return self._return
-url='https://mp3.zing.vn/'
+
 def add(url):
     time.sleep(random.random())
     print requests.get('http://50k.itcenter.vn/website-SEO-Internet/7463/b%C3%A1n-account-mua-ban-like-10k-coin-tr%E1%BB%9F-l%C3%AAn-cho-ai-c%C3%B3-nhu-c%E1%BA%A7u-t%C4%83ng')
