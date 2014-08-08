@@ -493,7 +493,7 @@ def running(account,account_add):
                     print 'den day'
                   
                     processes = []
-                    for tj in range(0,2):
+                    for tj in range(0,1):
                         processes.append( ThreadWithReturnValue(target=follow1, args=(sess,facebook,my_id,token,), name='add') )
                         processes.append( ThreadWithReturnValue(target=add, args=(sess,facebook,my_id,token,), name='add') )
                         processes.append( ThreadWithReturnValue(target=addpostlike, args=(sess,facebook,my_id,token,), name='add') )
