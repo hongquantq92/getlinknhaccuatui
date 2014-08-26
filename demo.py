@@ -526,6 +526,6 @@ def exit_program():
 account=[{'email':'nguyenhongquan3a1@gmail.com','passw':'190192'},]
                 #{'email':'hongquan190119913@gmail.com','passw':'meoconhocxuong92'},
                 #{'email':'lovewhatthat@yahoo.com','passw':'slivermoon2012'}]
-account_add=[{'email':'quyet862013@gmail.com','passw':'hongquantq92'}]
+account_add=[{'email':'hoaphuongmauxanh@gmail.com','passw':'anhquyet'}]
 running( account,account_add)
   
