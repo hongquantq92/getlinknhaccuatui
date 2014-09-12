@@ -1,4 +1,9 @@
-{"data":[
+{"version":"1.0","data":[
+    {
+      "file":"pad.exe",
+      "version":"1.0",
+      "size":"100kb"
+    },
     {
       "file":"pad.exe",
       "version":"1.0",
