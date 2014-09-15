@@ -1,4 +1,4 @@
-[{"version":"1.0","data":[
+[{"version":"1.0", "lever":1, "data":[
     {
       "file":"http://m.f9.img.vnexpress.net/2014/09/13/bom3-4371-1410577828.jpg",
       "version":"1.0",
@@ -15,7 +15,7 @@
     }
 ]
 },
-{"version":"2.0","data":[
+{"version":"2.0", "lever":2,"data":[
     {
       "file":"http://m.f9.img.vnexpress.net/2014/09/13/bom3-4371-1410577828.jpg",
       "version":"1.0",
@@ -32,7 +32,7 @@
     }
 ]
 },
-{"version":"3.0","data":[
+{"version":"3.0", "lever":3,"data":[
     {
       "file":"http://m.f9.img.vnexpress.net/2014/09/13/bom3-4371-1410577828.jpg",
       "version":"1.0",
