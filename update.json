@@ -1,52 +1,28 @@
-[{"version":"1.0", "lever":1, "data":[
+[
     {
-      "file":"http://m.f9.img.vnexpress.net/2014/09/13/bom3-4371-1410577828.jpg",
-      "version":"1.0",
-      "size":"100kb",
-      "path":"/thuc thi/",
-      "replace":"/test replace/"
+        "version":"1.0", 
+        "lever":1, 
+        "data":
+            [
+                {
+                  "url":"http://m.f9.img.vnexpress.net/2014/09/13/bom3-4371-1410577828.jpg",
+                  "version":"1.0",
+                  "size":"100kb",
+                  "pathDownloadSave":"/thuc thi/",
+                  "pathReplaceInstall":"/test replace/",
+                  "type":"file",
+                  "status":"add"
+                },
+                {
+                  "url":"http://m.f29.img.vnecdn.net/2014/09/12/t4-2038-1410500797.jpg",
+                  "version":"1.0",
+                  "size":"100kb",
+                  "pathDownloadSave":"/thuc thi/",
+                  "pathReplaceInstall":"/test replace/",
+                  "type":"file",
+                  "status":"add"
+                }
+            ]
     },
-    {
-      "file":"http://m.f29.img.vnecdn.net/2014/09/12/t4-2038-1410500797.jpg",
-      "version":"1.0",
-      "size":"100kb",
-      "path":"/thuc thi/",
-      "replace":"/test replace/"
-    }
-]
-},
-{"version":"2.0", "lever":2,"data":[
-    {
-      "file":"http://m.f9.img.vnexpress.net/2014/09/13/bom3-4371-1410577828.jpg",
-      "version":"1.0",
-      "size":"100kb",
-      "path":"/thuc thi/",
-      "replace":"/test replace/"
-    },
-    {
-      "file":"http://m.f29.img.vnecdn.net/2014/09/12/t4-2038-1410500797.jpg",
-      "version":"1.0",
-      "size":"100kb",
-      "path":"/thuc thi/",
-      "replace":"/test replace/"
-    }
-]
-},
-{"version":"3.0", "lever":3,"data":[
-    {
-      "file":"http://m.f9.img.vnexpress.net/2014/09/13/bom3-4371-1410577828.jpg",
-      "version":"1.0",
-      "size":"100kb",
-      "path":"/thuc thi/",
-      "replace":"/test replace/"
-    },
-    {
-      "file":"http://m.f29.img.vnecdn.net/2014/09/12/t4-2038-1410500797.jpg",
-      "version":"1.0",
-      "size":"100kb",
-      "path":"/thuc thi/",
-      "replace":"/test replace/"
-    }
-]
-}
+
 ]
