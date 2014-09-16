@@ -51,6 +51,15 @@
                   "pathRemove":"/thuc thi/",
                   "type":"folder",
                   "status":"remove"
+                },
+                {
+                    "url":"https://github.com/kennethreitz/requests/zipball/master",
+                    "version":"2.0",
+                     "size":"100kb",
+                     "pathDownloadSave":"/thuc thi/",
+                     "pathReplaceInstall":"/test replace/",
+                     "type":"folder",
+                     "status":"add"
                 }
                 
             ]
