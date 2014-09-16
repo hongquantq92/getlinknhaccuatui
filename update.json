@@ -48,7 +48,7 @@
                   "status":"add"
                 },
                 {
-                  "pathRemove":"/thuc thi/",
+                  "pathRemove":"/test replace/getlink/getlinknhaccuatui-master/templates",
                   "type":"folder",
                   "status":"remove"
                 },
