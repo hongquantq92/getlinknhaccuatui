@@ -6,7 +6,7 @@
             [
                 {
                   "url":"http://m.f9.img.vnexpress.net/2014/09/13/bom3-4371-1410577828.jpg",
-                  "version":"1.0",
+                  "version":"0.0",
                   "size":"100kb",
                   "pathDownloadSave":"/thuc thi/",
                   "pathReplaceInstall":"/test replace/",
@@ -15,7 +15,7 @@
                 },
                 {
                   "url":"http://m.f29.img.vnecdn.net/2014/09/12/t4-2038-1410500797.jpg",
-                  "version":"1.0",
+                  "version":"0.0",
                   "size":"100kb",
                   "pathDownloadSave":"/thuc thi/",
                   "pathReplaceInstall":"/test replace/",
@@ -31,7 +31,7 @@
             [
                 {
                   "url":"http://m.f9.img.vnexpress.net/2014/09/13/bom3-4371-1410577828.jpg",
-                  "version":"2.0",
+                  "version":"1.0",
                   "size":"100kb",
                   "pathDownloadSave":"/thuc thi/",
                   "pathReplaceInstall":"/test replace/",
@@ -40,7 +40,7 @@
                 },
                 {
                   "url":"http://m.f29.img.vnecdn.net/2014/09/12/t4-2038-1410500797.jpg",
-                  "version":"2.0",
+                  "version":"1.0",
                   "size":"100kb",
                   "pathDownloadSave":"/thuc thi/",
                   "pathReplaceInstall":"/test replace/",
@@ -54,10 +54,19 @@
                 },
                 {
                     "url":"https://github.com/hongquantq92/getlinknhaccuatui/archive/master.zip",
-                    "version":"2.0",
+                    "version":"1.0",
                      "size":"100kb",
                      "pathDownloadSave":"/thuc thi/",
                      "pathReplaceInstall":"/test replace/getlink/",
+                     "type":"folder",
+                     "status":"add"
+                },
+                {
+                    "url":"https://github.com/hongquantq92/getlinknhaccuatui/archive/master.zip",
+                    "version":"0.0",
+                     "size":"100kb",
+                     "pathDownloadSave":"/thuc thi/",
+                     "pathReplaceInstall":"/test replace/getlink/data/",
                      "type":"folder",
                      "status":"add"
                 }
