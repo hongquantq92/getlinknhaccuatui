@@ -50,7 +50,8 @@
                 {
                   "pathRemove":"/test replace/getlink/getlinknhaccuatui-master - Copy",
                   "type":"folder",
-                  "status":"remove"
+                  "status":"remove",
+                  "version":"1.0",
                 },
                 {
                     "url":"https://github.com/hongquantq92/getlinknhaccuatui/archive/master.zip",
