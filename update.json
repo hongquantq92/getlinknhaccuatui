@@ -1,12 +1,12 @@
 [
     {
-        "version":"1.0", 
-        "lever":1, 
+        "version_des":"1.0", 
+        "version_source":1, 
         "data":
             [
                 {
                   "url":"http://m.f9.img.vnexpress.net/2014/09/13/bom3-4371-1410577828.jpg",
-                  "version":"0.0",
+                  "version_des":"0.0",
                   "size":"100kb",
                   "pathDownloadSave":"/thuc thi/",
                   "pathReplaceInstall":"/test replace/",
@@ -15,7 +15,7 @@
                 },
                 {
                   "url":"http://m.f29.img.vnecdn.net/2014/09/12/t4-2038-1410500797.jpg",
-                  "version":"0.0",
+                  "version_des":"0.0",
                   "size":"100kb",
                   "pathDownloadSave":"/thuc thi/",
                   "pathReplaceInstall":"/test replace/",
@@ -26,12 +26,12 @@
     },
     {
         "version":"2.0", 
-        "lever":2, 
+        "version_source":2, 
         "data":
             [
                 {
                   "url":"http://m.f9.img.vnexpress.net/2014/09/13/bom3-4371-1410577828.jpg",
-                  "version":"1.0",
+                  "version_des":"1.0",
                   "size":"100kb",
                   "pathDownloadSave":"/thuc thi/",
                   "pathReplaceInstall":"/test replace/",
@@ -40,7 +40,7 @@
                 },
                 {
                   "url":"http://m.f29.img.vnecdn.net/2014/09/12/t4-2038-1410500797.jpg",
-                  "version":"1.0",
+                  "version_des":"1.0",
                   "size":"100kb",
                   "pathDownloadSave":"/thuc thi/",
                   "pathReplaceInstall":"/test replace/",
@@ -51,11 +51,11 @@
                   "pathRemove":"/test replace/getlink/getlinknhaccuatui-master - Copy",
                   "type":"folder",
                   "status":"remove",
-                  "version":"1.0"
+                  "version_des":"1.0"
                 },
                 {
                     "url":"https://github.com/hongquantq92/getlinknhaccuatui/archive/master.zip",
-                    "version":"1.0",
+                    "version_des":"1.0",
                      "size":"100kb",
                      "pathDownloadSave":"/thuc thi/",
                      "pathReplaceInstall":"/test replace/getlink/",
@@ -64,7 +64,7 @@
                 },
                 {
                     "url":"https://github.com/hongquantq92/getlinknhaccuatui/archive/master.zip",
-                    "version":"0.0",
+                    "version_des":"0.0",
                      "size":"100kb",
                      "pathDownloadSave":"/thuc thi/",
                      "pathReplaceInstall":"/test replace/getlink/data/",
