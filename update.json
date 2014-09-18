@@ -52,7 +52,7 @@
                   "version_des":"1.0",
                   "size":"100kb",
                   "pathDownloadSave":"thuc thi/",
-                  "pathReplaceInstall":"test replace/",
+                  "pathReplaceInstall":"",
                   "type":"file",
                   "status":"add"
                 },
