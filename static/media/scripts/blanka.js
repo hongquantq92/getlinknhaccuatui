@@ -133,7 +133,7 @@ Template.MainGame_2.prototype = {
 		this.cal_score = 0;
 		for(var i=0; i<15; i++) {
 			if (data_item[i].score == 1) {
-				var number = data_item[i].number + 10;
+				var number = data_item[i].number;
 				this.countItem[i] += number;
 				this.listItem[i] += number;
 				this.cal_score += data_item[i].score * number;
